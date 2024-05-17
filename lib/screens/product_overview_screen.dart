@@ -4,7 +4,8 @@ import 'package:provider/provider.dart';
 import 'package:shop_app/provider/cart.dart';
 import 'package:shop_app/provider/products.dart';
 import 'package:shop_app/screens/cart_screen.dart';
-import 'package:shop_app/widgets/product_item_widget.dart';
+import 'package:shop_app/widgets/app_drawer.dart';
+import 'package:shop_app/widgets/product_item.dart';
 
 enum FilterOptions { favorites, all }
 
@@ -57,6 +58,7 @@ class _ProductOverviewScreenState extends State<ProductOverviewScreen> {
           )
         ],
       ),
+      drawer: const AppDrawer(),
       body: GridView.builder(
         itemCount: product.length,
         padding: const EdgeInsets.all(20),
