@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "35180612639",
+    "project_id": "flutterrestapi-17c56",
+    "storage_bucket": "flutterrestapi-17c56.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:35180612639:android:add8049f49ae592cbd592a",
+        "android_client_info": {
+          "package_name": "com.example.shop_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRgq1tXbz4qBQ5m-JjnXDY-a9md8c9VJs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

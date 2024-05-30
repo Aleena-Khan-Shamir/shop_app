@@ -14,12 +14,15 @@ class ProductDetailScreen extends StatelessWidget {
       appBar: AppBar(title: Text(loadedProducts.title)),
       body: Column(
         children: [
-          Container(
-            height: 300,
-            decoration: BoxDecoration(
-                image: DecorationImage(
-                    fit: BoxFit.cover,
-                    image: NetworkImage(loadedProducts.imageUrl))),
+          Hero(
+            tag: loadedProducts.id,
+            child: Container(
+              height: 380,
+              decoration: BoxDecoration(
+                  image: DecorationImage(
+                      fit: BoxFit.cover,
+                      image: NetworkImage(loadedProducts.imageUrl))),
+            ),
           ),
           Padding(
             padding: const EdgeInsets.all(8.0),
